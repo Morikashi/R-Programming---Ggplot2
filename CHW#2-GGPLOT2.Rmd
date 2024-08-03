@@ -1,0 +1,149 @@
+---
+title: "Working with GGPLOT2"
+output: html_notebook
+---
+### GGPLOT2
+
+
+<font color = 'purple'> This is the second assignment of R programming which will focus on basics of R, and using ggplot2. 
+
+\newline You should not use `for loop` in your code snippets unless mentioned specifically.
+
+<font color = 'green'> **Question 1**:
+
+1. Load the built-in dataset `mtcars`.\
+
+2. Using `mtcars`, create a bar chart showing the average miles per gallon `(mpg)` for each number of cylinders `(cyl)`.\
+
+3. customize the bar chart by using a unique color palette and different fill colors for each bar.
+
+Score(10)
+
+```{r}
+#Your code starts here
+
+
+
+
+
+
+#Your code ends here
+```
+
+
+<font color = 'darkblue'> **Question 2**:
+
+1. Load the built-in dataset `economics`.\
+
+2. Filter the dataset to include data only from the year 2000 onwards.\
+
+3. Create a line chart showing the trend of the unemployment rate `(unemploy)` over time `(date)`.\
+
+4. Customize the line chart by using a 'green' dashed line style and adding a smooth curve to the line.\
+
+Score(10)
+
+```{r}
+#Your code starts here
+
+
+
+
+
+
+#Your code ends here
+```
+
+
+<font color = 'red'> **Question 3**:
+
+1. Load the built-in dataset `iris`.\
+
+2. Create a scatter plot showing the relationship between sepal length `(Sepal.Length)` and sepal width `(Sepal.Width)` for each species of `iris`.\
+
+3. Customize the scatter plot by using different shapes for each species and a 'color gradient' based on 'sepal length'.\
+
+Score(20)
+
+```{r}
+#Your code starts here
+
+
+
+
+
+
+#Your code ends here
+```
+
+<font color = 'cyan4'> **Question 4**:
+
+1. Load the built-in dataset `diamonds`.
+
+2. Filter the dataset to include only diamonds with a cut of 'Ideal'.
+
+3. Create a histogram showing the distribution of diamond prices `(price)` for 'Ideal' cut diamonds.
+
+4. Customize the histogram by using a 'gradient fill color' and adjusting the 'bin' width for a clearer representation.
+
+Score(20)
+
+```{r}
+#Your code starts here
+
+
+
+
+
+
+#Your code ends here
+```
+
+<font color = 'darkcyan'> **Question 5**:
+
+1. Load the built-in dataset `mpg`.
+
+2. Calculate the average highway mileage (hwy) for each class of vehicles `(class)`.
+
+3. Create a grouped bar chart comparing the average highway mileage of different vehicle classes.
+
+4. Customize the grouped bar chart by using a 'gradient color' scheme for each bar group.
+Score(20)
+
+
+```{r}
+#Your code starts here
+
+
+
+
+
+
+#Your code ends here
+```
+
+<font color = 'aquamarine3'> **Question 6**:
+
+1. Load the built-in dataset `diamonds`.
+
+2. Create a scatter plot showing the relationship between diamond `carat` and `price`, with each cut of the diamond displayed in a separate facet.
+
+
+3. Customize the scatter plot by:
+
+
+* Using a color gradient to represent the clarity of the diamonds.
+
+
+Score(20)
+
+```{r}
+#Your code starts here
+
+
+
+
+
+
+#Your code ends here
+```
